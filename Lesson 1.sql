@@ -1,3 +1,9 @@
+/**
+Developer: Sunday Shobo
+Date: 3.12.25
+Version: V_1.0
+**/
+
 --how to find server name
 select @@SERVERNAME
 
