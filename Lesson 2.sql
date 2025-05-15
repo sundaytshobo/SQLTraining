@@ -154,3 +154,22 @@ where PetAge = 8
 --How to remove all record from a table
 delete
 from Pet
+
+/**
+Case Statement for Business
+If the age of the customer is more than 30, it returns Gen X and if the age of the customer is 23, 34, 25, should be Jan Z,
+If the age of the customer is 22, then it should be Gen Alpha,
+If the age of the customer is 27, then it should be Gen Y and make sure to name the field as generation
+**/
+select*
+From Business
+-
+select
+ID,
+Name,
+Age,
+Address,
+Salary,
+Case
+When Age > 30 Then 'Gen x'
+When Age between 23 and 25 Then 'Gen Z'

@@ -1,6 +1,11 @@
 Select *
 From [dbo].[FoodCo]
 
+--how to show only fruit names in this table
+select * 
+from [dbo].[FoodCo]
+
+
 --Foodco. table creation
 create table [FoodCo.]
 ("S.no" int null,
